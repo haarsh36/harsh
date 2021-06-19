@@ -1,0 +1,34 @@
+iframe { height: 500px;
+         width: 600px;
+         border: 5px solid black;
+         margin: 20px;
+         padding: 20px;
+         box-shadow: 20px 20px 10px #888888;
+
+}
+
+.nav-component {
+	width: fit-content;
+}
+.side-navbar {
+	background-image: linear-gradient(brown, purple);
+	height: 25vh;
+	padding-left: 1px;
+}
+.title {
+	font-size: 1.5em;
+	color: #32cd32;
+	text-decoration: none;
+}
+button {
+	vertical-align: text-top;
+}
+.nav-link {
+	padding: 0px;
+	margin: 0px 12px 0px 0px;
+}
+.nav-items {
+	font-size: 1.3em;
+	text-decoration: none;
+	color: white;
+}

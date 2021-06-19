@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<center>
+<div class="nav-component">
+	<div class="side-navbar">
+		<div class="nav-link">
+			<a href="index.html" class="nav-items">Home</a>
+		</div>
+		<div class="nav-link">
+			<a href="h.html" class="nav-items">Graphics</a>
+		</div>
+		<div class="nav-link">
+			<a href="links.html" class="nav-items">Links</a>
+		</div>
+		<div class="nav-link">
+			<a href="form.html" class="nav-items"> Contact Form</a>
+			<div>
+			</div>
+		</div>
+<div>
+
+<h1>Graphics</h1>
+<br>
+
+<canvas id="HD2">
+  </canvas>
+<br>
+<input type="button"
+             value="CHANGE TO RANDOM COLOR"
+             onclick="change_backgrounds()">
+<br>
+<br>
+  <canvas id="HD1">
+  </canvas>
+  <h2> Color selector </h2>
+  <input type="color" value="#001A57"
+           id="clr" 
+           onchange="color_picker_tool()">
+<br>
+<br>
+<br>
+
+<canvas id="HD">
+</canvas>
+
+<input type="button"
+             value="Make Red"
+             onclick="change_background()">
+<br>
+<input type="range" min="10" max="100" value="10" id="sldr" oninput=doSquare()>
+</div>
+</center>
+
+
+</html>
